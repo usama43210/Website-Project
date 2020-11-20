@@ -1,0 +1,361 @@
+/* 
+===============
+GLOBAL STYLES 
+==============
+*/
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Capriola', sans-serif;
+}
+h1{
+	font-size: 3em;
+}
+h3{
+	font-size: 2em;
+}
+h5{
+	font-size: 1.5em;
+}
+
+/*
+=================
+HERO SECTION
+-===============
+*/
+
+.hero{
+	height: 100vh;
+	background: linear-gradient( to bottom right,#460362,#000000 );
+	color: white;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+/*
+================
+NAVIGATION BAR
+================
+*/
+
+.navbar{
+	width: 100%;
+	height: 40px;
+	background-color: black;
+}
+.navbar ul{
+	text-align: center;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline;
+}
+.navbar ul li a{
+	text-decoration: none;	
+	color: white;
+	display: inline-block;
+	line-height: 40px;
+	padding: 0px 22px 0px 22px;
+	box-sizing: border-box;
+}
+.navbar ul li a:hover{
+	background: linear-gradient( to bottom right,#5d0b76,#000000 );
+	font-size: 18px;
+}
+
+/*
+==============
+SERVICES
+==============
+*/
+
+.service{
+	width: 100%;
+	background: honeydew;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+	font-size: 20px;
+}
+.serv-col{
+	width: 90%;
+	margin: auto;
+	padding-top: 50px;
+}
+.serv-col1{
+	width: 33.33%;
+	float: left;
+	padding: 10px 30px 10px 30px;
+}
+.serv-col::after{
+	clear: both;
+	display: table;
+	content: "";
+}
+
+/* 
+===============
+ABOUT US
+==============
+*/
+
+
+.about-sec{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+	background-image: url(meeting6.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: white;
+	box-sizing: border-box;
+}
+
+
+.about-para{
+	margin: auto;
+	width: 80%;	
+	background-color: rgb(70, 81, 89, 0.5);
+	margin-top: 30px;
+	font-size: 1.1em;
+	color: white;
+	border: 1px solid white;
+	border-radius: 25px;
+	padding: 30px;
+}
+.about-btn{
+	padding: 10px 15px 10px 15px;
+	margin-top: 20px;	
+	border: 1px solid black;
+	cursor: pointer;
+	background: black;
+	border: 1px solid purple;
+	color: white;
+	border-radius: 25px;
+	box-sizing: border-box;
+}
+.about-btn:hover{
+	background: linear-gradient( to bottom right, purple,black);
+	border: 1px solid white;
+	font-size: 0.9em;	
+}
+
+/*
+==============
+TEAM
+==============
+*/
+
+.team{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	width: 100%;
+	background: linear-gradient( to top right, black,black, #3a0e4f);
+	text-align: center;
+	color: white;
+}
+.team-box{
+	padding-top: 50px;
+	width: 90%;	
+	margin: auto;
+}
+.team-col{
+	padding: 10px 30px 10px 30px;
+	width: 33.33%;
+	float: left;
+}
+.team-col img{
+	width: 80px;
+	max-width: 100%;
+	padding-bottom: 10px;
+}
+.team-col1{
+	max-width: 200px;
+	max-height: 170px;
+	border: 1px solid black;
+	box-shadow: 2px 2px 2px 2px purple;
+	padding: 10px;
+	border-radius: 25px;
+}
+.team-box::after{
+	clear: both;
+	content: "";
+	display: table;
+}
+
+/*
+==============
+CONTACT
+==============
+*/
+
+.contact{
+	width: 100%;
+
+}
+.cnt-box{
+	text-align: center;
+	width: 100%;
+	padding: 2px 5px 2px 5px;
+	background: yellow;
+}
+.cnt-box1{
+	float: left;
+	width: 33.33%;
+
+}
+.cnt-box::after{
+	clear: both;
+	content: "";
+	display: table;
+}
+.cnt-box h3{
+	display: inline;
+}
+
+
+/*
+==============
+CONTACT INFO
+==============
+*/
+
+
+.cnt-info{
+	width: 100%;
+	padding: 30px 5px 30px 5px;
+	text-align: center;
+	background: linear-gradient( to top left, black, #3a0e4f);
+	color: white;
+}
+.cnt-info::after{
+	display: table;
+	content: "";
+	clear: both;
+}
+.cnt-info1{
+	width: 35%;
+	float: left;
+	padding: 30px 5px 30px 5px;
+}
+.cnt-info2{
+	width: 65%;
+	float: left;
+	padding: 30px 5px 30px 5px;
+	align-items: center;
+}
+.icon{
+	padding: 15px;
+	border: 1px solid black;
+
+}
+.fb{
+	background: #1744ec;
+	color: white;
+}
+.tw{
+	background: #1aacc1;
+	color: white;
+}
+.gp{
+	background: #f41717;
+	color: white;
+}
+.fbtn{
+	padding: 5px 20px 5px 20px;
+	background: black;
+	color: white;
+	border: 1px solid white;
+	border-radius: 25px;
+
+	box-shadow: 1px 1px 2px 2px black;
+}
+.fbtn:hover{
+	background: white;
+	color: black;
+	border: 1px solid black;
+
+}
+.fname, .femail{
+	height: 25px;
+	margin-left: 2%;
+	padding-left: 50px;
+}
+.name, .email, .msg{
+	font-size: 1.5em;
+}
+textarea{
+	margin-left: 4.5%;
+}
+
+/*
+==============
+FOOTER INFO
+==============
+*/
+
+.foot{
+	width: 100%;
+	background-image: url(meeting4.jpg);
+	background-size: cover;
+	background-position: fixed;
+	color: white;
+	padding: 50px 10px 50px 10px;
+
+		
+
+}
+.foot1 h2{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.foot::after{
+	content: "";
+	clear: both;;
+	display: table;
+}
+.foot1{
+	width: 33.33%;
+	float: left;
+	padding: 5px 10px 5px 10px;
+}
+
+
+@media screen and ( max-width: 600px){
+	.serv-col1{
+		width: 100%;
+		padding-top: 100px;
+	}
+	.team-col{
+		width: 100%;
+		padding-top: 100px;
+	}
+	.cnt-box1{
+		width: 100%;
+		padding-top: 100px;
+	}
+	.cnt-info1{
+		width: 100%;
+		padding-top: 100px;
+	}
+	.cnt-info2{
+		width: 100%;
+		padding-top: 100px;
+	}
+	.foot1{
+		width: 100%;
+		padding-top: 100px;
+	}
+	.about-sec{
+		background-size: cover;
+	}
+}
